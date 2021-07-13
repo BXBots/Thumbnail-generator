@@ -19,8 +19,8 @@ def start(client, message):
             message.reply_text(text =f"Hello {message.from_user.first_name } \n\n **I am simple YouTube Thumbnail link Generator** \n __Send me Youtube link and get Thumbnail link__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ],
-                 [InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]
+                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical"),
+                    InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]
            ]
         ) )
 
